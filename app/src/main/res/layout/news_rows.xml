@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/items_row_view"
+    android:padding="15dp"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/news_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/textview_row_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#DA69C3B6"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/textview_row_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#DA69C3B6"
+        android:textStyle="normal"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
